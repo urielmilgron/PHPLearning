@@ -1,5 +1,8 @@
 <?php
 
+//PHP = Hypertext Preprocessor
+//Is a open source programming language used to create dynamic web pages
+
 //Comments in php is created by // and for multiline comments use /* and */
 //To create a message use echo
 echo "Hello World \n";
@@ -10,6 +13,12 @@ echo $variable;
 
 //other useful command is gettype() to get the type of variable
 echo gettype($variable);
+
+//To make a global variable use global keyword
+global $variable;
+
+//So, with this declaration you can access the variable outside of the function
+
 
 //php is dinamically typed, you can change the type of variable at any time
 
@@ -43,4 +52,6 @@ print_r($person);
 
 //when you need access to a key value pair you can use $person["name"]
 echo $person["name"];
+
+//
 ?>
