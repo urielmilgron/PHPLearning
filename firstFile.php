@@ -53,5 +53,8 @@ print_r($person);
 //when you need access to a key value pair you can use $person["name"]
 echo $person["name"];
 
-//
+//strings, integer, doubles and boolean are a primitive data in php
+
+
+
 ?>
